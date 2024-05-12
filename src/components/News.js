@@ -16,21 +16,41 @@ const News = (props)=> {
   }
 
   const UpdateNews = async (pageNo)=> {
-    // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apikey=8d82cdfdc7fb4c61ab9c306d65f107db&page=${page}&pageSize=${props.pageSize}`;
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
-    setLoding(true)
-    let data = await fetch(url);
-    let parsedData = await data.json()
-    // setArticles(parsedData.articles)
-    setArticles((prevArticles) => {
-      if (prevArticles) {
-        return prevArticles.concat(parsedData.articles);
-      } else {
-        return parsedData.articles;
-      }
-    });
-    setTotalResults(parsedData.totalResults)
-    setLoding(false)
+    // // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apikey=8d82cdfdc7fb4c61ab9c306d65f107db&page=${page}&pageSize=${props.pageSize}`;
+    // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
+    // setLoding(true)
+    // let data = await fetch(url);
+    // let parsedData = await data.json()
+    // // setArticles(parsedData.articles)
+    // setArticles((prevArticles) => {
+    //   if (prevArticles) {
+    //     return prevArticles.concat(parsedData.articles);
+    //   } else {
+    //     return parsedData.articles;
+    //   }
+    // });
+    // setTotalResults(parsedData.totalResults)
+    // setLoding(false)
+    try {
+      const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
+      setLoading(true);
+      let data = await fetch(url);
+      let parsedData = await data.json();
+      // setArticles(parsedData.articles);
+      setArticles((prevArticles) => {
+        if (prevArticles) {
+          return prevArticles.concat(parsedData.articles);
+        } else {
+          return parsedData.articles;
+        }
+      });
+      setTotalResults(parsedData.totalResults);
+      setLoading(false);
+    } catch (error) {
+      console.error('Error fetching news:', error);
+      // Handle error state or display an error message
+      setLoading(false); // Ensure loading state is set to false
+    }
    
   }
   //useeffect also done same work like componenet did mount doing
