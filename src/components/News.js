@@ -88,7 +88,7 @@ const News = (props)=> {
     setPage(page+1)
     let data = await fetch(url);
     let parsedData = await data.json();
-    // setArticles(articles.concat(parsedData.articles))
+    setArticles(articles.concat(parsedData.articles))
     setArticles((prevArticles) => {
       if (prevArticles) {
         return prevArticles.concat(parsedData.articles);
