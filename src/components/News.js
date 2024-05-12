@@ -38,7 +38,7 @@ const News = (props)=> {
       let parsedData = await data.json();
       // setArticles(parsedData.articles);
       setArticles((prevArticles) => {
-        if (prevArticles) {
+        if (prevArticles && prevArticles.length){
           return prevArticles.concat(parsedData.articles);
         } else {
           return parsedData.articles;
@@ -117,7 +117,7 @@ const News = (props)=> {
     let parsedData = await data.json();
     // setArticles(articles.concat(parsedData.articles))
     setArticles((prevArticles) => {
-      if (prevArticles) {
+      if (prevArticles && prevArticles.length){
         return prevArticles.concat(parsedData.articles);
       } else {
         return parsedData.articles;
