@@ -21,7 +21,14 @@ const News = (props)=> {
     setLoding(true)
     let data = await fetch(url);
     let parsedData = await data.json()
-    setArticles(parsedData.articles)
+    // setArticles(parsedData.articles)
+    setArticles((prevArticles) => {
+      if (prevArticles) {
+        return prevArticles.concat(parsedData.articles);
+      } else {
+        return parsedData.articles;
+      }
+    });
     setTotalResults(parsedData.totalResults)
     setLoding(false)
    
