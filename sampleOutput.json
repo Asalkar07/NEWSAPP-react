@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 11,
+    "articles": [
+        {
+            "source": {
+                "id": "goteborgs-posten",
+                "name": "Göteborgs-Posten"
+            },
+            "author": "Dante Löfmarck",
+            "title": "Kulturdebatt: Hur mycket ironisk poesi tål Sverige?",
+            "description": "Det är ledsamt att ta del av poesi som enbart ägnar sig åt poserande, skriver Dante Löfmarck.",
+            "url": "http://www.gp.se/kultur/kulturdebatt/hur-mycket-ironisk-poesi-tal-sverige-.2f947820-de82-4d5a-a8f7-5506fdee23c6",
+            "urlToImage": "https://www.gp.se/images/og/2f947820-de82-4d5a-a8f7-5506fdee23c6/images/364VlKIK7nF3tqrR9VhQWkKUi-OE-WIDE.jpg?width=1200&quality=75",
+            "publishedAt": "2024-03-04T09:19:51Z",
+            "content": "För 10 år sedan beklagade sig den finlandssvenska poeten Matilda Södergran över den ironiska trenden i brevboken Poesi. En debattbok (2014). Södergran, vid tiden bosatt i Malmö, hade tagit del av poe… [+3495 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-ca",
+                "name": "Google News (Canada)"
+            },
+            "author": "Vancouver Sun",
+            "title": "Traffic alert: Metro Vancouver drivers warned to prepare for snow - Vancouver Sun",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vdmFuY291dmVyc3VuLmNvbS9uZXdzL2xvY2FsLW5ld3MvdHJhZmZpYy1hbGVydC1tZXRyby12YW5jb3V2ZXItZHJpdmVycy13YXJuZWQtc25vdy1vdmVybmlnaHTSAZIBaHR0cHM6Ly92YW5jb3V2ZXJzdW4uY29tL25ld3MvbG9jYWwtbmV3cy90cmFmZmljLWFsZXJ0LW1ldHJvLXZhbmNvdXZlci1kcml2ZXJzLXdhcm5lZC1zbm93LW92ZXJuaWdodC93Y20vZWQ0MTIyMWItM2QzMC00MGQ5LTgwMWEtZWE2ZGU3ZmZlYjFlL2FtcC8?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-03-04T07:14:43+00:00",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news-au",
+                "name": "Google News (Australia)"
+            },
+            "author": "9News",
+            "title": "Horror school bus crash still scarring students, driver, court hears - 9News",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy45bmV3cy5jb20uYXUvbmF0aW9uYWwvdmljdG9yaWEtbmV3cy1idXMtZHJpdmVyLXN0dWRlbnRzLXN0aWxsLXNjYXJyZWQtYnktc3BhY2UtY2FtcC1jcmFzaC8yMjkyNmRlZC02MWE0LTQ1YzUtYmQ3Zi0zMzM5ZmExZjg2YWPSAUVodHRwczovL2FtcC45bmV3cy5jb20uYXUvYXJ0aWNsZS8yMjkyNmRlZC02MWE0LTQ1YzUtYmQ3Zi0zMzM5ZmExZjg2YWM?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-03-04T07:01:45+00:00",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Ginger Adams Otis",
+            "title": "California Digs Out From Blizzard, Prepares for More Snow",
+            "description": "Storm stranded drivers, closed ski resorts and knocked out power to thousands",
+            "url": "https://www.wsj.com/us-news/climate-environment/california-digs-out-from-blizzard-prepares-for-more-snow-ac5bf124?mod=hp_featst_pos3",
+            "urlToImage": "https://images.wsj.net/im-932962/social",
+            "publishedAt": "2024-03-03T22:08:00Z",
+            "content": "More snow is headed to northern California this week, on the heels of a powerful blizzard that dumped more than 60 inches over parts of the Sierra Nevada mountains. \r\nThe blizzard began Thursday and … [+282 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "The Associated Press",
+            "title": "2 police horses on the lam cause traffic jam on I-90 in Cleveland area",
+            "description": "Drivers on an Ohio interstate came upon an unusual traffic hazard over the weekend — a pair of horses trotting against traffic",
+            "url": "https://abcnews.go.com/US/wireStory/2-police-horses-lam-cause-traffic-jam-90-107757141",
+            "urlToImage": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+            "publishedAt": "2024-03-03T19:00:37Z",
+            "content": "CLEVELAND -- Drivers on an Ohio interstate came upon an unusual traffic hazard over the weekend a pair of police horses trotting against traffic on the highway.\r\nThe two animals on the lam caused an … [+1220 chars]"
+        },
+        {
+            "source": {
+                "id": "la-nacion",
+                "name": "La Nacion"
+            },
+            "author": null,
+            "title": "Semillero de goles: Mastantuono, Echeverri y Ruberto, los pibes que River tiene listos para el superclásico",
+            "description": "Demichelis cuenta con los tres juveniles en condiciones de ser titulares el domingo en el Monumental",
+            "url": "http://www.lanacion.com.ar/deportes/futbol/semillero-de-goles-mastantuono-echeverri-y-ruberto-los-pibes-que-river-tiene-listos-para-el-nid21022024/",
+            "urlToImage": "https://resizer.glanacion.com/resizer/v2/mastantuono-y-echeverri-con-posibilidades-de-ser-WTRIPAXQAJCEXFAR4WYGFHFGAM.JPG?auth=27ae270dad554e118a95ceed95a9e0c4149defe6f056351588fd3f2c6ca42550&width=768&quality=70&smart=false",
+            "publishedAt": "2024-02-25T16:43:05.667Z",
+            "content": "El gol de Ariel Ortega a los 20 años en la Bombonera, en 1994. El golazo de Pablo Aimar, de emboquillada, con 19 años, en el Monumental en 1999. El doblete de Gonzalo Higuaín, con 19 años, en 2006. A… [+5239 chars]"
+        },
+        {
+            "source": {
+                "id": "la-nacion",
+                "name": "La Nacion"
+            },
+            "author": null,
+            "title": "Superclásico en febrero: un debut soñado, el Boca-River único y la remontada que desniveló el historial",
+            "description": "Apenas 48 de los 384 partidos entre los rivales eternos se disputaron este mes; y solo 8 fueron oficiales",
+            "url": "http://www.lanacion.com.ar/deportes/futbol/superclasico-en-febrero-un-debut-sonado-el-boca-river-unico-y-la-remontada-que-desnivelo-el-nid23022024/",
+            "urlToImage": "https://resizer.glanacion.com/resizer/v2/carlos-garcia-cambon-y-un-debut-inolvidable-en-FJOMNCGIXJCZDJ234KM5PKT2NM.jpg?auth=a9a19151739fb09e1f9499c2b01d62fd9393c818a3778620cc39219e5f45c1e5&width=768&quality=70&smart=false",
+            "publishedAt": "2024-02-23T14:32:24.414Z",
+            "content": "Febrero fue, durante casi medio siglo, sinónimo de amistosos de verano en lo referido a los Boca-River. En ese lapso, Mar del Plata y Mendoza fueron escenarios de cruces inolvidables. Sin embargo, el… [+6088 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": null,
+            "title": "River City Girls 2: Villains Trailer - IGN",
+            "description": "<section class=\"video-page\"><section data-transform=\"mobile-ad-break\"></section><p>Renowned developer WayForward and ArcSystemWorks introduce you to the villains of River City Girls 2,  including Sabuko (the &quot;disgraced daughter&quot;), Ken (the &quot;ric…",
+            "url": "https://www.ign.com/videos/river-city-girls-2-villains-trailer",
+            "urlToImage": "https://assets-prd.ignimgs.com/2022/08/31/rivercitygirls2villainstrailer-36190303-rivercitygirls2-villainstrailer-blogroll-1661974265062.jpg?width=1280",
+            "publishedAt": "2022-09-01T17:07:27.5493853Z",
+            "content": "Renowned developer WayForward and ArcSystemWorks introduce you to the villains of River City Girls 2, including Sabuko (the \"disgraced daughter\"), Ken (the \"rich boy yakuza\"), and Sabu (the \"criminal… [+236 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "China reports first Omicron case as fears mount for factory supply chains",
+            "description": "Outbreak in Yangtze river delta forces manufacturers to suspend production",
+            "url": "https://www.ft.com/content/a0457f43-0e8b-4ce8-8fda-f32fc77e8905",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Feac573ef-6728-42f6-8c0c-13e4136dd4fa.jpg?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2021-12-14T07:07:20.2534148Z",
+            "content": "The Omicron coronavirus variant has appeared for the first time in China, according to health authorities, piling pressure on officials already contending with an outbreak in one of the country’s mos… [+4384 chars]"
+        },
+        {
+            "source": {
+                "id": "mashable",
+                "name": "Mashable"
+            },
+            "author": "Sasha Lekach",
+            "title": "Uber will now kick off riders with low ratings",
+            "description": "Drivers can get deactivated, and now so can you.",
+            "url": "https://mashable.com/article/uber-us-canada-rider-ratings-deactivation/",
+            "urlToImage": "https://mondrian.mashable.com/2019%252F05%252F29%252F62%252F019202836dda42f9a508830e94ef2f41.cd2aa.jpg%252F1200x630.jpg?signature=GVUvqiudwXUBp1yp9WeEcM9FwOk=",
+            "publishedAt": "2019-05-29T14:00:00Z",
+            "content": "Uber drivers with low ratings can get deactivated from the Uber platform. Now, passengers who consistently get well below a five-star rating will get the same treatment. \r\nThis feature already rolled… [+2204 chars]"
+        }
+    ]
+}
