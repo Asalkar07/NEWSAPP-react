@@ -17,20 +17,20 @@ const News = (props)=> {
 
   const UpdateNews = async (pageNo)=> {
     // // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apikey=8d82cdfdc7fb4c61ab9c306d65f107db&page=${page}&pageSize=${props.pageSize}`;
-    // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
-    // setLoding(true)
-    // let data = await fetch(url);
-    // let parsedData = await data.json()
-    // // setArticles(parsedData.articles)
-    // setArticles((prevArticles) => {
-    //   if (prevArticles) {
-    //     return prevArticles.concat(parsedData.articles);
-    //   } else {
-    //     return parsedData.articles;
-    //   }
-    // });
-    // setTotalResults(parsedData.totalResults)
-    // setLoding(false)
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
+    setLoding(true)
+    let data = await fetch(url);
+    let parsedData = await data.json()
+    // setArticles(parsedData.articles)
+    setArticles((prevArticles) => {
+      if (prevArticles) {
+        return prevArticles.concat(parsedData.articles);
+      } else {
+        return parsedData.articles;
+      }
+    });
+    setTotalResults(parsedData.totalResults)
+    setLoding(false)
     
     // try {
     //   const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
@@ -53,32 +53,32 @@ const News = (props)=> {
     //   setLoading(false); // Ensure loading state is set to false
     // }
 
-    try {
-      const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
-      let data = await fetch(url);
-      if (!data.ok) {
-        throw new Error(`HTTP error! Status: ${data.status}`);
-      }
-      let parsedData = await data.json();
+    // try {
+    //   const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=ae0b831e88f247619626e60fbdea398b&page=${page}&pageSize=${props.pageSize}`;
+    //   let data = await fetch(url);
+    //   if (!data.ok) {
+    //     throw new Error(`HTTP error! Status: ${data.status}`);
+    //   }
+    //   let parsedData = await data.json();
     
-      if (parsedData && parsedData.articles && parsedData.totalResults) {
-        // Use parsedData.articles and parsedData.totalResults
-        setArticles((prevArticles) => {
-          if (prevArticles && prevArticles.length) {
-            return prevArticles.concat(parsedData.articles);
-          } else {
-            return parsedData.articles;
-          }
-        });
-        setTotalResults(parsedData.totalResults);
-      } else {
-        throw new Error('Invalid API response! Missing articles or totalResults.');
-      }
-    } catch (error) {
-      console.error('Error fetching news:', error);
-      // Handle error state or display an error message
-      setLoading(false); // Ensure loading state is set to false
-    }
+    //   if (parsedData && parsedData.articles && parsedData.totalResults) {
+    //     // Use parsedData.articles and parsedData.totalResults
+    //     setArticles((prevArticles) => {
+    //       if (prevArticles && prevArticles.length) {
+    //         return prevArticles.concat(parsedData.articles);
+    //       } else {
+    //         return parsedData.articles;
+    //       }
+    //     });
+    //     setTotalResults(parsedData.totalResults);
+    //   } else {
+    //     throw new Error('Invalid API response! Missing articles or totalResults.');
+    //   }
+    // } catch (error) {
+    //   console.error('Error fetching news:', error);
+    //   // Handle error state or display an error message
+    //   setLoading(false); // Ensure loading state is set to false
+    // }
   }
   //useeffect also done same work like componenet did mount doing
   useEffect(()=>{
